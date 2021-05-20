@@ -8,8 +8,6 @@ In order to properly launch the project:
 
 ### Examples ###
 
-![](https://raw.githubusercontent.com/biancofla/cuda-raytracing/main/renders/gifs/multiple_spheres.m4v?raw=true)
-
 ![](https://github.com/biancofla/cuda-raytracing/blob/main/renders/cornell_box.bmp?raw=true)
 
 ![](https://github.com/biancofla/cuda-raytracing/blob/main/renders/dragon.bmp?raw=true)
