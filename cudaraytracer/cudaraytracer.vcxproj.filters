@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{13b77a40-d33a-441e-9c15-17f72550b5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Math">
+      <UniqueIdentifier>{2aeac0d2-7cba-4013-913c-bc4501b0d0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Geometry">
+      <UniqueIdentifier>{b8b30ce7-a01e-4c3a-a297-8a46025c2fad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="box.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="instance.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="object.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.cuh">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="mathutils.cuh">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix4D.cuh">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="point3D.cuh">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3D.cuh">
+      <Filter>Header files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="bvh.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="color.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="const.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="material.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="object_list.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="raster.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="simple_texture.cuh">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_loader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.cuh">
+      <Filter>Header files\Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

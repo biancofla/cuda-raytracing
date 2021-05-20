@@ -1,0 +1,40 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu   -IC:\Users\Flavio\source\repos\cudaraytracer\packages\sdl2.nuget.2.0.12\build\native\../..//build/native/include/ -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -expt-extended-lambda -g  -DHAS_SDL2 -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\kernel.cu" 
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(29): warning : the format string ends before this argument
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(72): warning : the format string ends before this argument
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(74): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(79): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(92): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(92): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+CUDACOMPILE : ptxas warning : Stack size for entry function '_Z6renderP5coloriiiPP6objectPP6cameraP17curandStateXORWOW' cannot be statically determined
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(74): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(79): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(92): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\bvh.cuh(92): warning : invalid narrowing conversion from "int" to "unsigned long long"
+  
+  kernel.cu
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(29): warning C4474: 'printf' : too many arguments passed for format string
+  C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(29): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(72): warning C4474: 'printf' : too many arguments passed for format string
+  C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(72): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(81): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(84): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Flavio\source\repos\cudaraytracer\cudaraytracer\obj_loader.h(87): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:/Users/Flavio/source/repos/cudaraytracer/cudaraytracer/kernel.cu(43): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'const char *const '
+C:/Users/Flavio/source/repos/cudaraytracer/cudaraytracer/kernel.cu(43): warning C4313: 'printf': '%d' in format string conflicts with argument 2 of type 'const char *const '
+C:/Users/Flavio/source/repos/cudaraytracer/cudaraytracer/kernel.cu(43): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'const int'
+C:/Users/Flavio/source/repos/cudaraytracer/cudaraytracer/kernel.cu(43): warning C4313: 'printf': '%s' in format string conflicts with argument 3 of type 'const int'
+  cudaraytracer.vcxproj -> C:\Users\Flavio\source\repos\cudaraytracer\x64\Debug\cudaraytracer.exe
