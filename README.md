@@ -1,5 +1,7 @@
 ## RAY TRACING WITH CUDA ##
 
+Accelerated ray-tracer written in CUDA.
+
 ### Examples ###
 
 ![](https://raw.githubusercontent.com/biancofla/cuda-raytracing/main/renders/multiple_spheres.bmp?raw=true)
